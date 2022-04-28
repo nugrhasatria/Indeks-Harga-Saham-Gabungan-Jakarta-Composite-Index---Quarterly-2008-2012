@@ -25,7 +25,7 @@ yq12 = ['2008\nQ1', '2008\nQ2', '2008\nQ3', '2008\nQ4',
 a_df = {'ci12': ci12, 'yq12': yq12}
 alpha = pd.DataFrame(a_df)
 
-# Axis for Beban Pengembangan Usaha
+# Axis for Composite Index 2008-2012 (Quarterly)
 fig, ax1 = plt.subplots(figsize = (10,6))
 plt.ylim(1000, 4600)
 color = 'Teal'
